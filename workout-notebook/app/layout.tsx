@@ -1,6 +1,10 @@
 /* Components */
 import { Providers } from '@/lib/providers'
 import { Nav } from './components/Nav'
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
 
 /* Instruments */
 import styles from './styles/layout.module.css'
