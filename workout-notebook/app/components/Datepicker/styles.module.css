@@ -1,0 +1,15 @@
+.datepickerContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 10px solid red;
+}
+
+.datepicker {
+    /* Your existing styles for the input */
+    border: 10px solid #ccc;
+    padding: 8px;
+    /* Add more styles as needed */
+}

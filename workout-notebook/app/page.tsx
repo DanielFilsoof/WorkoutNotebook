@@ -6,5 +6,10 @@ export default function IndexPage() {
 }
 
 export const metadata = {
-  title: 'Workout Notebook',
+  title: 'Lift Log',
+  name: 'viewport',
+  content: 'initial-scale=1',
+  width: 'device-width'
 }
+
+// <meta name="viewport" content="initial-scale=1, width=device-width" />
