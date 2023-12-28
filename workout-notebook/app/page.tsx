@@ -1,4 +1,5 @@
 /* Components */
+import { APP_NAME } from '@/constants'
 import { Counter } from './components/Counter/Counter'
 
 export default function IndexPage() {
@@ -6,10 +7,8 @@ export default function IndexPage() {
 }
 
 export const metadata = {
-  title: 'Lift Log',
+  title: `🏋️ ${APP_NAME}`,
   name: 'viewport',
   content: 'initial-scale=1',
   width: 'device-width'
 }
-
-// <meta name="viewport" content="initial-scale=1, width=device-width" />
