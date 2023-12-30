@@ -7,7 +7,7 @@ import mockLogs from '@/app/mocks/mockLogs';
 const LogsOverview: React.FC = () => {
     return (
         <div>
-            <Typography variant="h4">Logs</Typography>
+            <Typography variant="h6">Logs</Typography>
             {mockLogs.map((log: Log) => (
                 <LogCard key={log.id} log={log} />
             ))}
