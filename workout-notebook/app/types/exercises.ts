@@ -1,14 +1,26 @@
-type set = {
+type Set = {
     repetitions: number;
     weight: number;
 }
 
-type exercise = {
+type Exercise = {
+    id: any;
+    name: string;
+    sets: Set[];
+}
+
+type Log = {
     id: any;
     name: string;
     date: Date;
-    sets: set[];
-    unitOfMeasurement: string;
+    exercises: Exercise[];
+    unitOfMeasurement: unitOfMeasurement
 }
 
-export type { set, exercise };
+enum unitOfMeasurement {
+    KG = 'KG',
+    LB = 'LB',
+}
+
+export type { Set, Exercise, Log };
+export { unitOfMeasurement };

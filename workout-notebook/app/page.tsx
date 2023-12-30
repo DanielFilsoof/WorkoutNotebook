@@ -1,9 +1,9 @@
 /* Components */
 import { APP_NAME } from '@/constants'
-import { Counter } from './components/Counter/Counter'
+import LogsOverview from './components/LogsOverview/LogsOverview'
 
 export default function IndexPage() {
-  return <Counter />
+  return <LogsOverview />
 }
 
 export const metadata = {

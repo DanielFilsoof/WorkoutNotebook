@@ -1,0 +1,22 @@
+.logCard {
+    border: 1px solid #ddd;
+    margin: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logInfo {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.exerciseList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.exerciseItem {
+    margin-bottom: 4px;
+}
